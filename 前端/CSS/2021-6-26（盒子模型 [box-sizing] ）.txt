@@ -1,0 +1,12 @@
+2021/6/26
+盒子模型：
+background=内容+padding(不包含border)
+如果不设置padding和border,则为0，内容边界与padding和border重合
+width保持不变
+若padding=10px; border=10px solid;
+
+box-sizing:
+1.content-box(width=内容)
+往外扩
+2.border-box（width=内容+padding+border）
+往内缩

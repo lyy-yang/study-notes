@@ -1,0 +1,32 @@
+2021/6/26
+补充内容：
+1.外部width=100px; 内部width=150px; 但也只能显示100px;???
+2.min-width和max-width(有一个阈值，当width在阈值内时，可缩小或放大，当超过阈值，则不再改变，大小显示为阈值)
+3.width:100%.表示占父容器div宽度的100%
+
+display:
+1.inline(无法设置width,heigth)
+2.block
+3.inline-block(可以设置width,heigth)
+
+flex项目属性：
+1.order
+2.flex-grow(项目对剩余空间的处理方式)
+3.flex-shrink(空间不足时项目是否缩小)
+4.flex-basis(设置项目宽度，权重比width大)（在分配多余空间之前，项目占据的主轴空间）（元素是弹性盒对象的元素，即该元素的父元素中设置了弹性盒）
+5.flex(缩写)
+6.align-self(使项目在align-items方向上，有自己独特的对齐方式，可覆盖align-items属性。默认值为auto，表示继承父元素的align-items属性，如果没有父元素，则等同于stretch。)
+
+flex属性：
+1.flex-direction(决定主轴方向)
+2.flex-wrap(超出容器宽度且不换行，将会被压缩)（超出容器宽度且换行，最后一个项目将会被分割）
+3.flex-flow（缩写）
+4.justify-content（决定项目在主轴上的对齐方式）
+	space-between(两端靠边，中间剩余空间平分)
+	space-around(平分所有剩余空间)
+5.align-items（交叉轴）
+	stretch(如果项目未设置高度或设为auto，将占满整个容器的高度。)
+	baseline(按项目的第一行文字的基线进行对齐。)
+6.align-content（多根轴线的对齐方式）（多根主轴在交叉轴方向上进行对齐）（属性值是2者的综合）
+	stretch（默认值）：轴线占满整个交叉轴。
+

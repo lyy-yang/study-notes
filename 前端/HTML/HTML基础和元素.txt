@@ -1,0 +1,16 @@
+1、html不是一种编程语言，而是一种标记语言。
+2、严格的说，html元素包含了开始标签和结束标签。
+3、html文档也叫web页面
+4、html文档的基本结构即其含义
+5、空元素：HTML 里的一个不可能存在子节点（例如内嵌的元素或者元素内的文本）的element。（即空内容、无嵌套）
+在空元素中使用闭合标签是无效的，所以要在开始标签中关闭，以开始标签的结束而结束。在未来所有元素都必须关闭。<br/>
+（没有关闭标签的）空元素有：<br>、<hr>、<img>、<input>、<link>、<meta>、<area>、<base>、<col>、<colgroup>、<command>、<embed>、<keygen>、<param>、<source>、<track>、<wbr>
+6、标签、属性使用小写
+
+元素：
+1、标题标签——<h1>
+2、段落标签——<p>
+3、链接——<a href="http://www.runoob.com"></a>
+在href属性中指定链接的地址
+4、图像——<img loading="lazy" src="/images/logo.png" width="258" height="39" />
+5、换行——<br>

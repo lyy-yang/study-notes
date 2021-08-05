@@ -1,0 +1,9 @@
+2021/6/26
+水平对齐：
+1.margin: 0 auto;（上下，左右）（对元素本身居中 ）只会是水平居中，不受flex-direction影响
+2.justify-content (会受到flex-direction影响)（flex布局内部元素，则在外层设置居中，内层元素居于外层的中间）
+
+垂直对齐：
+1.heigth:50%; margin-top:(-元素高度的一半);
+2.一个函数calc?  calc(50% - 高度的一半)   减号两边要用空格隔开
+3.align-items (会受到flex-direction影响)（flex布局内部元素，则在外层设置居中，内层元素居于外层的中间）
